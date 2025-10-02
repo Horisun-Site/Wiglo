@@ -1,0 +1,31 @@
+.main{
+    height: 80vh;
+    width: 98.9vw;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background: #000000;
+}
+
+
+
+
+@media(width<=900px){
+   .main{
+    height: 171vh;
+    width: 99.1vw;
+   }
+}
+
+
+/* @media(width<=600px){
+    .main{
+        height: 200vh;
+        width: 100vw;
+       margin-left: -10px;
+       margin-top: -10px;
+   }
+} */

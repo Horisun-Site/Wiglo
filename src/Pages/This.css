@@ -1,0 +1,358 @@
+/* .rel{
+    background-color: black;
+    height: 100vh;
+} */
+
+
+
+.logo{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.rec1{
+    background-color: black;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rec1div1{
+    background-color: black;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reada{
+    height: 90%;
+    width: 44%;
+    /* background-color: red; */
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.background{
+    height: 90%;
+    width: 35%;
+    /* background-color: gray; */
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url("https://cdn.pixabay.com/photo/2017/09/04/22/53/red-2715835_960_720.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background img{
+    width: 650px;
+    margin-bottom: 125px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+.rowe{
+    display: flex;
+    gap: 5px;
+}
+
+.rowe h2{
+    font-size: 34px;
+    color: white;
+}
+
+.ion{
+    font-style: italic;
+}
+
+/* .electron{
+
+} */
+
+.electron h3{
+    font-size: 24px;
+    /* gap: 20px; */
+    font-weight: 400;
+    color: white;
+}
+
+.colo{
+    /* background-color: antiquewhite; */
+    height: 200px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.balle{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    background-color: #15171a;
+}
+
+.balle:hover{
+    height: 35px;
+    width: 35px;
+}
+
+.balle img{
+    width: 15px;
+}
+
+.now{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.now h5{
+    color: white;
+}
+
+.wedd{
+    /* background-color: blue; */
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.asasas{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 200px; */
+}
+
+
+.after{
+    /* background-color: red; */
+    /* background: url("../assets/video.mp4"); */
+    height: 80.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.willa{
+    height: 100vh;
+    background-color: #15171a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.willadiv{
+    /* height: 200px; */
+    /* width: 80%; */
+    /* background-color: aquamarine; */
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.willadivsetc h3{
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.se8div44{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.se8div44div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+.suck{
+    display: flex;
+    gap: 8px;
+}
+
+.suck1{
+    font-style: italic;
+}
+
+.suck h4{
+    font-size: 50px;
+}
+
+.se8div44div p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.flower{
+    background-color: tomato;
+}
+
+.helder{
+    background-color: black;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.olado{
+    height: 140vh;
+    /* background-color: green; */
+    /* padding: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 40px; */
+    justify-content: center;
+}
+
+
+.olado1{
+    height: 95%;
+    width: 85%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 5px solid #15171a;
+    box-shadow: 0px 0px 20px #15171a;
+}
+
+.theone{
+    height: 95%;
+    width: 36%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* border-radius: 20px; */
+}
+
+.thetwo{
+    height: 95%;
+    width: 60%;
+    /* background-color: gray; */
+    /* border-radius: 20px; */
+}
+
+.twoone{
+    height: 50%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 50px;
+    /* background-color: rebeccapurple; */
+    /* border-radius: 20px; */
+}
+
+.twooneone{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+
+.twotwo{
+    height: 50%;
+}
+
+.twotwo img{
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+}
+
+.iono{
+    display: flex;
+    gap: 5px;
+    color: white;
+}
+
+.ionodiv{
+    font-style: italic;
+    font-weight: 450;
+}
+
+.iono h3{
+    font-size: 32px;
+}
+
+.willy{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #5b85a3;
+    font-size: 14px;
+}
+
+.input-field{
+    height: 45px;
+    width: 400px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+    font-size: 18px;
+    outline: none;
+}
+
+.input-field3{
+    height: 250px;
+    width: 415px;
+    border-radius: 20px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    resize: none;
+    box-sizing: border-box;
+    line-height: 1.4;
+    vertical-align: top;
+    outline: none;
+}
+
+.but1ton{
+    height: 45px;
+    width: 120px;
+    border-radius: 50px;
+    outline: none;
+    background-color: #4d61ff;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.but1ton:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #4d61ff;
+}

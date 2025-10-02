@@ -1,0 +1,240 @@
+.follow {
+  height: 60vh;
+  background-color: #4d61ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.coloum {
+  height: 80%;
+  width: 18%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.dodo1 {
+  height: 50px;
+  width: 100%;
+  /* background-color: green; */
+  margin-bottom: 15px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.dodo1 h2 {
+  color: white;
+}
+
+.dodo {
+  height: 55px;
+  /* width: 100%; */
+  display: flex;
+  /* background-color: blueviolet; */
+}
+.dodo2 {
+  width: 100%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  /* background-color: #4f46e5; */
+  gap: 10px;
+}
+
+.dodo2 h4 {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.boll {
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.boll:hover {
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  opacity: 20px;
+  border: 1px solid white;
+}
+
+.dodo2 img {
+  width: 20px;
+}
+
+.dodo2 img:hover {
+  width: 30px;
+}
+
+.clone{
+  height: 70%;
+  width: 85%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.clone1{
+  height: 45%;
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+}
+
+.clone1 img{
+  width: 30%;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.clonechild{
+  height: 65%;
+  width: 150px;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.clonechild h4{
+  color: #ffffff;
+}
+
+.clonechild p{
+  color: #9ca7ff;
+  font-size: 14px;
+  font-family: "open sans";
+}
+
+.kire{
+  height: 80%;
+  width: 350px;
+  /* background-color: green; */
+  display: flex;
+  gap: 10px;
+}
+
+.wili{
+  /* background-color: red; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wili img{
+  width: 30px;
+}
+
+.knoe{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.knoe:hover{
+  cursor: pointer;
+  margin-left: 10px;
+  color: red;
+}
+
+.knoe h4{
+  color: #ffffff;
+}
+
+.clown{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.clown h4{
+  color: #ffffff;
+}
+
+.triclown{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.triclown2{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.see{
+  display: flex;
+  gap: 10px;
+}
+
+.see2{
+  font-weight: 100;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(width<=900px){
+  .follow{
+    height: 200vh;
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,13 @@
+.maxman{
+    display: none;
+}
+
+
+
+@media(width<=500px){
+    .maxman{
+        display: flex;
+        height: 100vh;
+        background-color: black;
+    }
+}

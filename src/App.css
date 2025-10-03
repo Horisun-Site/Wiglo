@@ -595,6 +595,11 @@
 }
 
 @media (width<=500px) {
+
+  .wink{
+    width: 500px;
+  }
+
   .sec2 {
     height: 455vh;
   }

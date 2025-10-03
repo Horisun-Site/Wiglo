@@ -260,6 +260,9 @@
 .thetwo{
     height: 95%;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
     /* background-color: gray; */
     /* border-radius: 20px; */
 }
@@ -268,19 +271,24 @@
     height: 50%;
     width: 95%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* align-items: center; */
     justify-content: center;
-    gap: 50px;
+    gap: 200px;
     /* background-color: rebeccapurple; */
     /* border-radius: 20px; */
 }
 
 .twooneone{
     display: flex;
+    flex-direction: column;
     /* align-items: center; */
-    /* justify-content: space-between; */
-    gap: 20px;
+    /* justify-content: center; */
+    /* gap: 20px; */
+}
+
+.twooneone img{
+    width: 30%;
 }
 
 .twotwo{

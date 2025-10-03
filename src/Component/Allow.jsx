@@ -1,20 +1,21 @@
 import React from 'react'
 import './Allow.css'
+  
 
-const Allow = ({}) => {
+const Allow = ({image,text1,text2}) => {
   return (
     <div className='alow'>
 
       <div className='round'>
-
+        <img src={image} alt="" />
       </div>
 
       <div className='roundup'>
         <h3>
-          this is a test
+          {text1}
         </h3>
         <p>
-          this is also a test
+          {text2}
         </p>
       </div>
 

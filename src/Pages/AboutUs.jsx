@@ -5,21 +5,36 @@ import check2 from "../assets/check2.png";
 import Count from "../Component/Count";
 import video from "../assets/video.mp4";
 import Bottom from "../Component/Bottom";
+import { Divide as Hamburger } from 'hamburger-react'
+import Navmobile from "../Component/Navmobile";
 
 const AboutUs = () => {
-
   const [lift, setLift] = useState(false);
   const [lift1, setLift1] = useState(false);
   const [lift2, setLift2] = useState(false);
   const [lift3, setLift3] = useState(false);
   const [lift4, setLift4] = useState(false);
   const [lift5, setLift5] = useState(false);
+  const [isOpen, setOpen] = useState(false);
 
   return (
     <div>
-      <div></div>
+      <div className="lived">
+        <div
+          style={{
+            display: isOpen ? "none" : "flex",
+            position: "absolute",
+            right: "0",
+          }}
+        >
+          <Hamburger toggled={isOpen} toggle={setOpen} />
+        </div>
+      </div>
       <Navpc />
-      <div className="rel">
+      <Navmobile choice={isOpen} setChoice={setOpen} />
+      <div className="thewholeproject"
+      style={{ display: isOpen ? "none" : "flex", flexDirection: "column" }}
+      >
         <div className="rec1">
           <div className="logo"></div>
           <div className="rec1div1">
@@ -213,19 +228,12 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="se8div44">
-
           <div className="se8div44div">
             <div className="suck">
-              <h4>
-                Our
-              </h4>
-              <h4 className="suck1">
-                Partners
-              </h4>
+              <h4>Our</h4>
+              <h4 className="suck1">Partners</h4>
             </div>
-            <p>
-              Famous companies trusted us, why you are not?
-            </p>
+            <p>Famous companies trusted us, why you are not?</p>
           </div>
 
           <div className="sec8">
@@ -339,9 +347,8 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          
         </div>
-        <Bottom/>
+        <Bottom />
         <div className="sec10"></div>
       </div>
     </div>

@@ -364,3 +364,18 @@
     background-color: white;
     color: #4d61ff;
 }
+
+
+
+
+
+@media(width<=1500px){
+    .rec1div1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background{
+        width: 20px;
+    }
+}

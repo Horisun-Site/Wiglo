@@ -4,10 +4,29 @@
 
 
 
-@media(width<=500px){
+@media(width<=1500px){
+
+    .melon{
+        display: flex;
+        background-color: #27282c;
+        height: 45px;
+    }
+
     .maxman{
         display: flex;
+        /* align-items: center; */
+        justify-content: center;
         height: 100vh;
+        width: 100vw;
         background-color: black;
     }
+    
+    .summer{
+        /* align-items: center; */
+        margin-left: 75px;
+        /* justify-content: center; */
+        flex-direction: column;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
 }

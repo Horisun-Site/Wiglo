@@ -594,10 +594,32 @@
   background-color: #15171a;
 }
 
-@media (width<=500px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width<=1500px) {
 
   .wink{
-    width: 500px;
+    height: 50vh;
+    width: 100vw;
+    background-size:  100% contain;
+    object-fit: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    /* background-attachment: fixed; */
+
   }
 
   .sec2 {
@@ -730,12 +752,21 @@
     font-size: 30px;
   }
 
+  .se8div44{
+    height: 45vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: green; */
+  }
+
   .sec8 {
-    height: 115vh;
+    height: 80%;
+    /* background-color: red; */
     /* width: 100vw; */
     /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     flex-wrap: wrap;
     gap: 30px;
     /* background-color: red; */
@@ -744,13 +775,14 @@
   .when {
     height: 100px;
     width: 150px;
-    /* margin-top: 80px; */
+    margin-bottom: -20px;
     align-items: center;
+    /* margin-top: 10px; */
     /* background-color: green; */
   }
 }
 
-@media (width>=900px) {
+@media (width>=2000px) {
   .lived {
     display: none;
   }

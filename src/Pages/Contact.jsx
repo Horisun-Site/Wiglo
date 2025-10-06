@@ -3,12 +3,12 @@ import Navpc from "../Component/Navpc";
 import "./This.css";
 import Bottom from "../Component/Bottom";
 import Allow from "../Component/Allow";
-import email from "../Assets/email.png";
-import telephone from "../Assets/telephone.png";
-import twitter from "../Assets/twitter.png";
-import facebook from "../Assets/facebook.png";
-import maps from "../Assets/maps.png";
-import phone1call from "../Assets/phone1call.png";
+import email from "../assets/email.png";
+import telephone from "../assets/telephone.png";
+import twitter from "../assets/twitter.png";
+import facebook from "../assets/facebook.png";
+import maps from "../assets/maps.png";
+import phone1call from "../assets/phone1call.png";
 import Navmobile from "../Component/Navmobile";
 import { Divide as Hamburger } from "hamburger-react";
 

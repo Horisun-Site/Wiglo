@@ -36,7 +36,8 @@ const AboutUs = () => {
       style={{ display: isOpen ? "none" : "flex", flexDirection: "column" }}
       >
         <div className="rec1">
-          <div className="logo"></div>
+          <div className="logo">
+          </div>
           <div className="rec1div1">
             <div className="reada">
               <div className="rowe">
@@ -72,7 +73,7 @@ const AboutUs = () => {
                 alt=""
               />
             </div>
-            <div className="reada">
+            <div className="reada2">
               <div className="rowe">
                 <h2>Why</h2>
                 <h2 className="ion">Choose Us?!</h2>

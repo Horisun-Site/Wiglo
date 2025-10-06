@@ -2,6 +2,10 @@
     display: none;
 }
 
+.melon{
+    display: none;
+}
+
 
 
 @media(width<=1500px){

@@ -106,7 +106,7 @@ const Contact = () => {
                   >
                     <label htmlFor="nameinput">Your Question</label>
                     <textarea
-                      className="input-field3 "
+                      className="input-field3"
                       name=""
                       id="questioninput"
                     ></textarea>

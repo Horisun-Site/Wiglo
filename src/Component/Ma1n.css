@@ -13,10 +13,10 @@ video{
 
 
 
-@media(width<=900px){
+@media(width<=1500px){
    .main{
-    height: 171vh;
-    width: 99.1vw;
+    height: 170vh;
+    width: 99.9vw;
    }
 }
 

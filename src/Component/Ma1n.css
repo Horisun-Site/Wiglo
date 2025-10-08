@@ -7,25 +7,17 @@ video{
     height: 100%;
     width: 100%;
     object-fit: cover;
-    background: #000000;
+    /* background: #000000; */
 }
 
 
 
 
 @media(width<=1500px){
-   .main{
-    height: 170vh;
-    width: 99.9vw;
-   }
+  .main{
+    height: 150vh;
+  }
+
+  
 }
 
-
-/* @media(width<=600px){
-    .main{
-        height: 200vh;
-        width: 100vw;
-       margin-left: -10px;
-       margin-top: -10px;
-   }
-} */

@@ -5,7 +5,7 @@ import check2 from "../assets/check2.png";
 import Count from "../Component/Count";
 import video from "../assets/video.mp4";
 import Bottom from "../Component/Bottom";
-import { Divide as Hamburger } from 'hamburger-react'
+import { Divide as Hamburger } from "hamburger-react";
 import Navmobile from "../Component/Navmobile";
 
 const AboutUs = () => {
@@ -32,12 +32,12 @@ const AboutUs = () => {
       </div>
       <Navpc />
       <Navmobile choice={isOpen} setChoice={setOpen} />
-      <div className="thewholeproject"
-      style={{ display: isOpen ? "none" : "flex", flexDirection: "column" }}
+      <div
+        className="thewholeproject"
+        style={{ display: isOpen ? "none" : "flex", flexDirection: "column" }}
       >
         <div className="rec1">
-          <div className="logo">
-          </div>
+          <div className="logo"></div>
           <div className="rec1div1">
             <div className="reada">
               <div className="rowe">
@@ -156,11 +156,11 @@ const AboutUs = () => {
               <p>We're here to help you to finding a best way</p>
             </div>
 
-            <div>
+            <div className="widow">
               <Count />
             </div>
           </div>
-          <video autoPlay muted src={video}></video>
+          <video className="reddit" autoPlay muted src={video}></video>
         </div>
         <div className="willa">
           <div className="willadiv">

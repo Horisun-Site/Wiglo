@@ -4,7 +4,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* background-color: black; */
   font-family: "Open Sans";
   scroll-behavior: smooth;
 }
@@ -18,7 +17,9 @@
   background: url("https://xtratheme.com/elementor/business-2/wp-content/uploads/sites/18/2018/01/slider1-1.jpg");
   background-size: cover;
   background-color: lightcoral;
+  transition: 0.3s;
 }
+
 
 .big {
   height: 100vh;
@@ -103,6 +104,10 @@
   display: flex;
   flex-direction: column;
   gap: 2px;
+}
+
+.lived{
+  display: none;
 }
 
 .font h4 {
@@ -264,8 +269,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 10px; */
-  background-color: green;
+  /* background-color: green; */
 }
 
 .bigger {
@@ -500,8 +504,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* justify-content: center; */
   gap: 20px;
-  /* align-items: center; */
 }
 
 .sec6div1 {
@@ -521,7 +525,10 @@
 }
 
 .width {
+  /* background-color: green; */
   display: flex;
+  /* align-items: center; */
+  justify-content: center;
   gap: 9px;
 }
 
@@ -611,6 +618,10 @@
 
 @media (width<=1500px) {
 
+  .lived{
+    display: flex;
+  }
+
   .wink{
     height: 50vh;
     width: 100vw;
@@ -623,22 +634,15 @@
   }
 
   .sec2 {
-    height: 420vh;
+    height: 380vh;
   }
 
   .holder {
-    /* width: 100vw; */
     padding: 50px;
     margin-top: 30%;
     width: 500px;
-    /* width: 80vw; */
-    /* width: fit-content; */
-    /* display: flex; */
     text-align: center;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* background-color: green; */
   }
 
   .bill {
@@ -660,9 +664,14 @@
   }
 
   .sec3 {
-    height: 170vh;
+    height: 150vh;
+    background-color: green;
     align-items: center;
     justify-content: center;
+  }
+
+  .ma1n{
+    height: 500px;
   }
 
   .thehold {
@@ -690,22 +699,22 @@
   }
 
   .sec4 {
-    height: 210vh;
+    height: 200vh;
     justify-content: space-evenly;
     gap: 60px;
     /* background-color: red; */
   }
 
-  .sec4div1 {
+  /* .sec4div1 {
     margin-top: -150px;
-    /* background-color: blueviolet; */
-  }
+    background-color: blueviolet;
+  } */
 
   .divset {
-    /* height: 100%; */
+    height: 90%;
     width: 100%;
-    margin-top: -120px;
-    margin-bottom: -10px;
+    /* margin-top: -120px; */
+    /* margin-bottom: -10px; */
     /* background-color: green; */
     flex-direction: column;
     gap: 10px;
